@@ -14,3 +14,9 @@ chett = create_new_person('Chett', 101)
 remove_person(sakib)
 
 print( people )
+
+'''
+File "/home/chett/031124/p3/01-python-debugging/09.py", line 9, in remove_person
+    people.remove(person)
+ValueError: list.remove(x): x not in list
+'''

@@ -6,3 +6,7 @@ def count_to_ten():
         print(f"counter is now {counter}")
 
 count_to_ten()
+
+'''
+infinite loop
+'''
