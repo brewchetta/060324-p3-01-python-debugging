@@ -1,7 +1,10 @@
 numbers_list = []
 
 def average_numbers_in_list(num_list:list):
-    return sum(num_list) / len(num_list)
+    try:
+        return sum(num_list) / len(num_list)
+    except ZeroDivisionError:
+        return "List is empty"
 
 avg = average_numbers_in_list( numbers_list )
 
